@@ -1,0 +1,34 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @tea.name %>
+</p>
+
+<p>
+  <strong>Email:</strong>
+  <%= @tea.email %>
+</p>
+
+<p>
+  <strong>Phone:</strong>
+  <%= @tea.phone %>
+</p>
+
+<p>
+  <strong>Address:</strong>
+  <%= @tea.address %>
+</p>
+
+<p>
+  <strong>Password:</strong>
+  <%= @tea.password %>
+</p>
+
+<p>
+  <strong>Age:</strong>
+  <%= @tea.age %>
+</p>
+
+<%= link_to 'Edit', edit_tea_path(@tea) %> |
+<%= link_to 'Back', teas_path %>
